@@ -1,0 +1,117 @@
+{
+    "burgers": {
+        "name": "New York's Finest Burgers",
+        "items": [
+            {
+                "name": "Manhattan Burger",
+                "price": 11.99,
+                "image": "https://d1ralsognjng37.cloudfront.net/8b8ec41f-5456-4cf8-bcad-7043cacb6e59.jpeg"
+            },
+            {
+                "name": "Bacon Cheesy Cheddar Burger",
+                "price": 11.99,
+                "image": "https://d1ralsognjng37.cloudfront.net/a8865320-4c3e-4859-8d85-dfc467753f64.jpeg"
+            },
+            {
+                "name": "BBQ Bacon Tribeca Burger",
+                "price": 11.99,
+                "image": "https://d1ralsognjng37.cloudfront.net/f51d16d8-04bc-47e0-9add-d87733d2ed8c.jpeg"
+            },
+            {
+                "name": "Hell's Kitchen Burger",
+                "price": 11.99,
+                "image": "https://d1ralsognjng37.cloudfront.net/89ecd3de-d13e-4f32-be57-a5f1f51750a9.jpeg"
+            }
+        ]
+    },
+    "hotDogs": {
+        "name": "World Famous Hot Dogs",
+        "items": [
+            {
+                "name": "Hot Dog",
+                "price": 6.39,
+                "image": "https://d1ralsognjng37.cloudfront.net/18511d39-0de3-4049-a2ba-69ab40e06632.jpeg"
+            },
+            {
+                "name": "Chili Cheese Dog",
+                "price": 7.59,
+                "image": "https://d1ralsognjng37.cloudfront.net/c570ab90-953c-4462-ae5c-d488a6d0d18c.jpeg"
+            },
+            {
+                "name": "Bacon Cheese Dog",
+                "price": 7.59,
+                "image": "https://d1ralsognjng37.cloudfront.net/edf780b0-a0b3-443e-b1d0-a518ab85afd2.jpeg"
+            },
+            {
+                "name": "Cheese Dog",
+                "price": 7.59,
+                "image": "https://d1ralsognjng37.cloudfront.net/49c955ce-1de8-4730-afeb-186bdd4b2450.jpeg"
+            },
+            {
+                "name": "Chili Dog",
+                "price": 7.59,
+                "image": "https://d1ralsognjng37.cloudfront.net/91a9142d-4dbf-4bc3-bb94-bf13268289e5.jpeg"
+            }
+        ]
+    },
+    "fries": {
+        "name": "Famous Fries",
+        "items": [
+            {
+                "name": "Cheese Fries",
+                "price": 6.29,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a3d1bd76ffb1354abb329ccc85a3a345/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+            },
+            {
+                "name": "Fries",
+                "price": 5.09,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/838ddc31c3636fc2fb92c36309aa0581/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+            },
+            {
+                "name": "Bacon Cheese Fries",
+                "price": 6.29,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f092f2b8cee9453c41fca3769a98cb8b/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+            },
+            {
+                "name": "Jalapeno Cheese Fries",
+                "price": 6.29,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/94037d64a51cb298bd78f99a775ef125/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+            },
+            {
+                "name": "Chili Cheese Fries",
+                "price": 6.29,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/87c6e7d43c6bc7e8971126b68c3e06aa/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+            }
+        ]
+    },
+    "chickens": {
+        "name": "Hand-Dipped Chicken 'n Rings",
+        "items": [
+            {
+                "name": "Chicken Wings",
+                "price": 11.99,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/71ca45373bfa60af345f23e16c39c55e/859baff1d76042a45e319d1de80aec7a.jpeg"
+            },
+            {
+                "name": "Hand-Battered Chicken Tenders",
+                "price": 8.39,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3147960b0755bab7d65da17cdc8d571c/859baff1d76042a45e319d1de80aec7a.jpeg"
+            },
+            {
+                "name": "Hand-Dipped Onion Rings",
+                "price": 4.79,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f106c9fc65b44ccd02019c6c04d8ccc0/859baff1d76042a45e319d1de80aec7a.jpeg"
+            },
+            {
+                "name": "BBQ 1/2 Chickens",
+                "price": 15.59,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d735bc5c70c91802e3204cc5cbb23e9e/859baff1d76042a45e319d1de80aec7a.jpeg"
+            },
+            {
+                "name": "Hot Honey 1/2 Chicken",
+                "price": 15.59,
+                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b389a6fa8416a04a5acac7a31609f32c/859baff1d76042a45e319d1de80aec7a.jpeg"  
+            }
+        ]
+    }
+}
