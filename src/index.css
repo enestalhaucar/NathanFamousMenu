@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 .bg {
-    background-image: url(../src/images/back-image.jpeg);
+    background-image: url(../src/images/bg.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     
 }
+
 .header{
     z-index: 10;
+}
+
+.active{
+    color: rgb(37 99 235);
 }
