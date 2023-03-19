@@ -9,18 +9,19 @@ import Foods from "./components/FoodSide/Foods"
 const Home = () => {
   return (
     <div className="bg w-screen bg-fixed">
-    {/* Main Header */}
-    <MainHeader />
-    {/* Logo */}
-    <Logo />
-    {/* Company Name */}
-    <CompanyName />
-    {/* Company Description */}
-    <CompanyDesc />
-    {/* Foods */}
-    <Foods />
+        {/* Main Header */}
+        <MainHeader />
+        {/* Logo */}
+        <Logo />
+        {/* Company Name */}
+        <CompanyName />
+        {/* Company Description */}
+        <CompanyDesc />
+        {/* Foods */}
+        <Foods />
 
-  </div>
+      </div>
+
   )
 }
 

@@ -6,7 +6,7 @@
     background-image: url(../src/images/bg.jpeg);
     background-size: cover;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;;
     
 }
 
@@ -17,3 +17,9 @@
 .active{
     color: rgb(37 99 235);
 }
+.activeButton{
+    background-color: white;
+    color: rgb(132, 182, 247);
+    transition: all 0.5s ease;
+}
+
