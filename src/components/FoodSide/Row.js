@@ -10,12 +10,21 @@ import { useState } from 'react'
 
 
 const Row = () => {
+
+    const [search, setSearch] = useState('');
+    let [title, setTitle] = useState(true);
+
+
     const burgers = data.burgers;
     const fries = data.fries;
     const chickens = data.chickens;
     const hotdogs = data.hotDogs;
 
-    const [search, setSearch] = useState('');
+  
+
+  
+
+
 
     return (
         <div className="">
@@ -46,13 +55,13 @@ const Row = () => {
             </div>
 
             <div className='flex w-full flex-col justify-between ' >
-                <h1 className='text-2xl font-small pl-4 py-4 mb-1'>{burgers.name}</h1>
+                <h1 className='text-2xl font-small pl-4 py-4 mb-1'>{title && burgers.name}</h1>
                 <div className='grid grid-cols-2'>
                     {burgers.items.filter((item) => {
                         if (search === '') {
-                            return item
+                            return item;
                         } else if (item.name.toLowerCase().includes(search.toLowerCase())) {
-                            return item
+                            return item;
                         }
                     }).map((burger) => (
                         <FoodItem key={burger.id} name={burger.name} image={burger.image} price={burger.price} />

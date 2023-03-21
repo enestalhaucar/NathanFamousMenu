@@ -22,4 +22,10 @@
     color: rgb(132, 182, 247);
     transition: all 0.5s ease;
 }
+.continue{
+    background-color: rgb(132, 182, 247);
+    color: white;
+    transition: all 0.5s ease;
+
+}
 
